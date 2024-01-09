@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #000, #002c4a);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    text-align: center;
+  }
+  
+  title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  input:focus {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  button {
+    background: #ffeb3b; /* Amarillo */
+    color: #000; /* Texto negro */
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); /* Efecto de sombra en el texto */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efecto 3D */
+  }
+  
+  button:hover {
+    background: #ffea00; /* Amarillo más claro en el hover */
+  }
+  
+  /* Agrega estilos futuristas adicionales según sea necesario. */
+  
